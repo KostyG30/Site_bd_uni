@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Dancing+Script&display=swap');
 
 body {
-    background-image:url(derevyannyy_fon_doski_65898_1920x1080.jpg);
+   background-image:url(derevyannyy_fon_doski_65898_1920x1080.jpg);
     background-repeat: no-repeat;
-    /*background-color: #ff8000; */ 
 }
 
 /* Content styles*/
@@ -20,7 +19,6 @@ body {
 /* Footer styles */
 .border_footer {
     box-sizing: content-box;
-    border: 1px solid white;
     background-color: transparent;
     width: 100%;
     height: 60px;
@@ -31,7 +29,7 @@ body {
 }
 /*Navbar styles*/
 .navbar-setone {
-    border: 1px solid white;
+
     font-family: 'Dancing Script';
     font-size: 20pt;
     margin-top: 15px; 
@@ -56,7 +54,8 @@ body {
 }
 
 .navbar-text {
-   /* border: 1px solid white; */
+   border: 1px solid white;
+    border-radius: 25px 25px 25px 25px;
     font-family: 'Dancing Script';
     font-size: 25pt;
     width: 140px;
@@ -69,7 +68,8 @@ body {
     
 }
 .dropdown-menu {
-    font-size: 15pt;
+    
+    font-size: 25pt;
     align-content: center;
     border: 1px solid white;
     background-color: white;
