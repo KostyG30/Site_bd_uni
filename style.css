@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Dancing+Script&display=swap');
 
 body {
-    background-color: white;
+    background-color: whitesmoke;
+    background-size: auto;
    /*background-image:url("unnamed.jpg");
     background-repeat: no-repeat; */
 }
@@ -66,8 +67,7 @@ body {
     font-weight: bolder;
     width: 210px;
 }
-    
-}
+
 .dropdown-menu {
     
     font-size: 15pt;
@@ -84,8 +84,6 @@ body {
     width: 300px;
     font-size: 18pt;
     margin-right: 10px;
-    
-    
 }
 
 div > h6 {
