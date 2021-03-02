@@ -70,17 +70,22 @@ body {
 }
 .dropdown-menu {
     
-    font-size: 25pt;
+    font-size: 15pt;
     align-content: center;
     border: 1px solid white;
     background-color: white;
     border-radius: 25px 25px 25px 25px;
-    width: 300px;
+    width: 250px;
     text-align: center;
 }
 
 .navbar-nav > div > .dropdown-menu { 
-    border: 1px solid white;
+    border: 1px solid black;
+    width: 300px;
+    font-size: 18pt;
+    margin-right: 10px;
+    
+    
 }
 
 div > h6 {
