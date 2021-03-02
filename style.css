@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Dancing+Script&display=swap');
 
 body {
-   background-image:url(derevyannyy_fon_doski_65898_1920x1080.jpg);
-    background-repeat: no-repeat;
+    background-color: white;
+   /*background-image:url("unnamed.jpg");
+    background-repeat: no-repeat; */
 }
 
 /* Content styles*/
@@ -26,15 +27,17 @@ body {
     border-radius: 25px 25px 25px 25px;
     text-align: center;
     margin-top: 25px;
+    border: 1px solid silver;
 }
 /*Navbar styles*/
 .navbar-setone {
-
+    
     font-family: 'Dancing Script';
     font-size: 20pt;
     margin-top: 15px; 
     border-radius: 25px 25px 25px 25px;
     background-color: transparent;
+    border: 1px solid silver;
 }
 /* change the brand and text color */
 .navbar-setone .navbar-brand,
@@ -43,19 +46,17 @@ body {
 }
 /* change the link color */
 .navbar-setone .navbar-nav .nav-link {
-    color: white;     
+    color: black;     
 }
 
 /* change the color of active or hovered links */
 .navbar-setone .nav-item.active .nav-link,
 .navbar-setone .nav-item:hover .nav-link {
-    color: white;
+    color: black;
     font-weight: bolder;
 }
 
 .navbar-text {
-   border: 1px solid white;
-    border-radius: 25px 25px 25px 25px;
     font-family: 'Dancing Script';
     font-size: 25pt;
     width: 140px;
@@ -86,5 +87,5 @@ div > h6 {
     padding-top: 20px; font-size: 12pt;
     font-family: 'Dancing Script'; 
     font-weight: bold; 
-    color: white;
+    color: black;
 }
