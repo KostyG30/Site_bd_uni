@@ -1,39 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Dancing+Script&display=swap');
 
-/*body {
-    font-family: 
-} */
-
-.border_header {
-    box-sizing:content-box;
-    border: 1px solid skyblue;
-    background-color: white;
-    width: 100%;
-    margin-top: 10px;
-    height: 100px;
+body {
+    background-color: darkcyan;
 }
+
+
 .border_content {
     box-sizing: content-box;
-    border: 1px solid darkgray;
+    border: 1px solid silver;
     background-color: white;
     width: 100%;
     height: 740px;
     margin-top: 10px;
+    border-radius: 25px 25px 25px 25px;
 }
 .border_footer {
     box-sizing: content-box;
-    border: 1px solid darkgray;
+    border: 1px solid silver;
     background-color: white;
-    opacity: 75%;
     width: 100%;
     height: 60px;
-    margin-top: 10px;   
+    margin-top: 10px;  
+    border-radius: 25px 25px 25px 25px;
 }
 .navbar-setone {
     border: 1px solid silver;
     font-family: 'Dancing Script';
     font-size: 20pt;
     margin-top: 15px; 
+    border-radius: 25px 25px 25px 25px;
+    background-color: white;
 }
 /* change the brand and text color */
 .navbar-setone .navbar-brand,
@@ -50,4 +46,12 @@
 .navbar-setone .nav-item:hover .nav-link {
     color: black;
     font-weight: bolder;
+}
+.navbar-text {
+    border: 1px solid silver;
+    font-family: 'Dancing Script';
+    font-size: 15pt;
+    width: 140px;
+    text-align: center;
+    
 }
