@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Dancing+Script&display=swap');
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/bootstrap";
+
 
 body {
     background-color: whitesmoke;
@@ -56,7 +60,7 @@ body {
     color: black;
     font-weight: bolder;
 }
-
+ /* Text style navbar*/
 .navbar-text {
     font-family: 'Dancing Script';
     font-size: 25pt;
@@ -80,7 +84,7 @@ body {
 }
 
 .navbar-nav > div > .dropdown-menu { 
-    border: 1px solid black;
+   /* border: 1px solid silver; */
     width: 300px;
     font-size: 18pt;
     margin-right: 10px;
@@ -91,4 +95,16 @@ div > h6 {
     font-family: 'Dancing Script'; 
     font-weight: bold; 
     color: black;
+}
+
+ .container .dropdown .dropdown-menu a:hover{
+  font-size: 20pt;
+  color: black;
+  background-color: white;
+  border: 1px solid silver;
+  border-radius: 25px 25px 25px 25px;
+}
+
+.modal-body {
+    text-align: center;
 }

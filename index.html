@@ -15,17 +15,31 @@
         <div class="container">
           <nav class="navbar navbar-expand-sm mr-auto navbar-setone justify-content-center">
               <a class="navbar-text" style="color: black">MyEducation</a>
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ">
                 <li class="nav-item"><a class="nav-link" href="#">My page</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">My account</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">News</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Chat</a></li>
                 <div class="nav-item dropdown"><a class="nav-link dropdown-toggllie" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sign in</a>
-                <li class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li class="dropdown-menu " aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="#">Student account</a>
                     <a class="dropdown-item" href="#">Teacher account</a>
-                    <a class="dropdown-item" href="#">Registration</a>
+                    <a class="dropdown-item"  data-toggle="modal" data-target="#modalreg" href="#">Registration</a>
+                    </li>
+             
                     </div>
+                    <div class="modal fade" id="modalreg" tabindex="-1" role="dialog" aria-labelledby="modalregLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="modalregLabel">Modal title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            hello
+                          </div>
               </ul>
             </nav>
           <div class="row">
