@@ -38,7 +38,7 @@ body {
 .navbar-setone {
     
     font-family: 'Dancing Script';
-    font-size: 20pt;
+    font-size: 1.7em;
     margin-top: 15px; 
     border-radius: 25px 25px 25px 25px;
     background-color: transparent;
@@ -63,7 +63,7 @@ body {
  /* Text style navbar*/
 .navbar-text {
     font-family: 'Dancing Script';
-    font-size: 25pt;
+    font-size: 1.6em;
     width: 140px;
     text-align: center;
     margin-left: 5px;
@@ -71,7 +71,7 @@ body {
     font-weight: bolder;
     width: 210px;
 }
-
+/*
 .dropdown-menu {
     
     font-size: 15pt;
@@ -82,14 +82,17 @@ body {
     width: 250px;
     text-align: center;
 }
+*/
 
+      /* Style of dropdown-menu */
+/*
 .navbar-nav > div > .dropdown-menu { 
    /* border: 1px solid silver; */
-    width: 300px;
-    font-size: 18pt;
+  /*  width: 300px;
+    font-size: 18;
     margin-right: 10px;
-}
-
+} 
+*/
 div > h6 {
     padding-top: 20px; font-size: 12pt;
     font-family: 'Dancing Script'; 
@@ -97,14 +100,42 @@ div > h6 {
     color: black;
 }
 
- .container .dropdown .dropdown-menu a:hover{
-  font-size: 20pt;
-  color: black;
-  background-color: white;
-  border: 1px solid silver;
-  border-radius: 25px 25px 25px 25px;
-}
+    .modal-body {
+        width: 600px;
+        height: 400px;
+        text-align: center;
+        font-size: 1.2em;
 
-.modal-body {
+    }
+
+     /* Forms style */
+  .form-group {
+      border: 1px solid black;
+      border-radius: 25px 25px 25px 25px;
+      width: 460px;
+      height: 260px;
+      padding-top: 15px;
+      margin-left: -15px;
+  }
+  .form-control {
+    border-radius: 15px 15px 15px 15px;
+    width: 280px;
     text-align: center;
-}
+    margin-left: 70px;
+  }
+
+  /*Modal style */
+ .modal-backdrop.show{
+      background-color: snow;
+    }
+
+
+  .modal-content {
+      background: white;
+  }
+  
+  .form-check {
+      margin-left: -39px;
+      font-size: 0.7em;
+
+  }

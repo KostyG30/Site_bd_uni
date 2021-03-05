@@ -13,33 +13,40 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <div class="container">
-          <nav class="navbar navbar-expand-sm mr-auto navbar-setone justify-content-center">
+          <nav class="navbar navbar-expand-sm mr-auto navbar-setone justify-content-center ">
               <a class="navbar-text" style="color: black">MyEducation</a>
-            <ul class="navbar-nav ">
+            <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link" href="#">My page</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">My account</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">News</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Chat</a></li>
-                <div class="nav-item dropdown"><a class="nav-link dropdown-toggllie" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sign in</a>
-                <li class="dropdown-menu " aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Student account</a>
-                    <a class="dropdown-item" href="#">Teacher account</a>
-                    <a class="dropdown-item"  data-toggle="modal" data-target="#modalreg" href="#">Registration</a>
-                    </li>
-             
-                    </div>
+                    <li class="nav-item"  data-toggle="modal" data-target="#modalreg"><a class="nav-link" href="#">Log in</a></li>
                     <div class="modal fade" id="modalreg" tabindex="-1" role="dialog" aria-labelledby="modalregLabel" aria-hidden="true">
                       <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <h5 class="modal-title" id="modalregLabel">Modal title</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <div class="modal-content ">
+                    <div class="modal-header">
+                           <!-- <div class="modal-title" id="modalregLabel"><h5 style="text-align: center;">Modal title</h5></div> -->
+                            <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">
                               <span aria-hidden="true">&times;</span>
-                            </button>
-                          </div>
+                            </button> -->
                           <div class="modal-body">
-                            hello
+                         <a class="navbar-text" style="color: black;">MyEducation</a>
+                         <div class="form-group">
+                           <label for="Num_Phone">Login</label>
+                           <input type="email" class="form-control" placeholder="Entering email or phone" aria-describedby="emailHelp" id=" ">
+                           <label for="Pwd">Password</label>
+                           <input type="password" class="form-control" placeholder="Entering password" aria-describedby="pwdHelp" id=" ">
+                           <div class="form-check">
+                             <input type="checkbox" class="form-check-input0" id=" ">
+                             <label class="form-check-label" for=" " id="">Student</label>
+                            
+                             <input type="checkbox" class="form-check-input1" id=" ">
+                             <label class="form-check-label" for="" id="">Teacher</label>
+                            </div>
+                              </div>
+                         </div>
                           </div>
+                              </div>
               </ul>
             </nav>
           <div class="row">
