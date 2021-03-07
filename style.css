@@ -138,6 +138,7 @@ div > h6 {
 
             }
             .btn:active {
-                background: none;
+                background: silver;
                 font-weight: bolder;
+
             }
