@@ -132,13 +132,11 @@ div > h6 {
         border: 1px solid silver;
         border-radius: 15px 15px 15px 15px;
     } 
-    
+
             .btn:hover {
-                background: none;
                 font-size: 0.6em;
 
             }
             .btn:active {
-                background: none;
                 font-weight: bolder;
             }
